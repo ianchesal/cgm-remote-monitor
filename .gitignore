@@ -21,6 +21,9 @@ static/bower_components/
 # istanbul output
 coverage/
 
+# flaky test results
+flaky-test-results/
+
 npm-debug.log
 *.heapsnapshot
 
@@ -37,3 +40,5 @@ letsencrypt/
 
 # Secrets from Heroku --> Render migration
 /.env
+.replit
+attached_assets/
